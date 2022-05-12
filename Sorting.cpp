@@ -65,5 +65,7 @@ private:
         }
         for (int i = start; i < end; i++)
             array[i] = array_sort[i - start];
+        
+        delete[] array_sort;
     }
 };
