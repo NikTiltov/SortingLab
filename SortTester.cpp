@@ -3,7 +3,6 @@
 #include <fstream>
 #include <chrono>
 #include <random>
-#include <iomanip>
 
 
 int SortTester::minCount = 10;
